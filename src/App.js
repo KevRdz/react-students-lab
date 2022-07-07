@@ -1,14 +1,14 @@
 import './App.css';
 import { useState } from 'react';
 import {students} from './data'
-import StudentList from './StudentList';
+import Student from './Student';
 
 
 function App() {
   const [stu, setStudents] = useState(students)
   return (
     <div className="app-container">
-      <StudentList stu={stu}/>
+      <Student stu={stu}/>
     </div>
   );
 }
