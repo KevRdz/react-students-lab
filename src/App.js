@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {students} from './data'
 
 function App() {
   return (
