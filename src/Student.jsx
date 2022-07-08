@@ -1,5 +1,5 @@
 import StudentCard from "./StudentCard";
-import Score from "./Score";
+// import Score from "./Score";
 
 const  Student = (props) => {
   return ( 
